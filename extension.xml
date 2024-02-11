@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="1.0" release="1">
+  <announcement text="CharWizard Item Count Fix for Fantasy Grounds" font="emotefont" icon="rulesetlogo_CoreRPG" />
+  <properties>
+    <name>CharWizard Item Count Fix</name>
+    <version>1</version>
+    <author>ClickerOfThings</author>
+    <description>CharWizard Item Count Fix extension for 5E</description>
+    <ruleset><name>5E</name></ruleset>
+    <loadorder>100</loadorder>
+  </properties>
+  <base>
+    <script name="CharWizardItemCountFix" file="scripts/charwizard_itemcount_fix.lua"/>
+  </base>
+</root>
